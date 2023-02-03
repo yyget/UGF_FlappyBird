@@ -15,23 +15,23 @@ namespace StarForce
         Undefined = 0,
 
         /// <summary>
-        /// 弹出框。
+        /// 菜单界面
         /// </summary>
-        DialogForm = 1,
+        MenuForm = 1,
 
         /// <summary>
-        /// 主菜单。
+        /// 设置界面
         /// </summary>
-        MenuForm = 100,
+        SettingForm = 2,
 
         /// <summary>
-        /// 设置。
+        /// 积分界面
         /// </summary>
-        SettingForm = 101,
+        ScoreForm = 3,
 
         /// <summary>
-        /// 关于。
+        /// 游戏结束界面
         /// </summary>
-        AboutForm = 102,
+        GameOverForm = 4
     }
 }
