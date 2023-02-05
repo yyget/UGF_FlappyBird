@@ -39,7 +39,13 @@ namespace StarForce
         {
             entityComponent.AttachEntity(entity.Entity, ownerId, parentTransformPath, userData);
         }
-
+        /// <summary>
+        /// 显示背景实体
+        /// </summary>
+        public static void ShowBg(this EntityComponent entityComponent, BgData data)
+        {
+            entityComponent.ShowEntity(typeof(Bg), "Bg", Constant.AssetPriority.BgAsset, data);
+        }
         public static void ShowMyAircraft(this EntityComponent entityComponent, MyAircraftData data)
         {
             entityComponent.ShowEntity(typeof(MyAircraft), "Aircraft", Constant.AssetPriority.MyAircraftAsset, data);

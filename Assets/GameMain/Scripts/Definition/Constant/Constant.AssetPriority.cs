@@ -24,6 +24,8 @@ namespace StarForce
             public const int UIFormAsset = 50;
             public const int UISoundAsset = 30;
 
+            public const int BgAsset = 90;
+
             public const int MyAircraftAsset = 90;
             public const int AircraftAsset = 80;
             public const int ThrusterAsset = 30;
