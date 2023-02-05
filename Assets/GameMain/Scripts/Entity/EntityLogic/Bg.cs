@@ -11,13 +11,15 @@ namespace StarForce
         private BgData m_BgData = null;
 
         private bool m_IsSpawn = false;
+        [SerializeField]
+        private float m_StartPosition= 17.92f;
 
         protected override void OnShow(object userData)
         {
             base.OnShow(userData);
             m_BgData = (BgData)userData;
             //修改开始位置
-            CachedTransform.SetLocalPositionX(m_BgData.StartPostion);
+            CachedTransform.SetLocalPositionX(m_BgData.StartPosition);
         }
 
         protected override void OnUpdate(float elapseSeconds, float realElapseSeconds)
@@ -29,7 +31,7 @@ namespace StarForce
             if (CachedTransform.position.x <= m_BgData.SpawnTarget && m_IsSpawn == false)
             {
                 //显示背景实体
-                GameEntry.Entity.ShowBg(new BgData(GameEntry.Entity.GenerateSerialId(), m_BgData.TypeId, m_BgData.MoveSpeed, 17.92f));
+                GameEntry.Entity.ShowBg(new BgData(GameEntry.Entity.GenerateSerialId(), m_BgData.TypeId, m_BgData.MoveSpeed, m_StartPosition));
                 m_IsSpawn = true;
             }
 

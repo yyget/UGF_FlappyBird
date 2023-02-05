@@ -23,13 +23,13 @@ namespace StarForce
         /// <summary>
         /// 移动起始点
         /// </summary>
-        public float StartPostion { get; private set; }
-        public BgData(int entityId, int typeId, float moveSpeed, float startPostion) : base(entityId, typeId)
+        public float StartPosition { get; private set; }
+        public BgData(int entityId, int typeId, float moveSpeed, float startPosition) : base(entityId, typeId)
         {
             MoveSpeed = moveSpeed;
-            SpawnTarget = -8.66f;
+            SpawnTarget = -2.8f;
             HideTarget = -26.4f;
-            StartPostion = startPostion;
+            StartPosition = startPosition;
         }
     }
 }
