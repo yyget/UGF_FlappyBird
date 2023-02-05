@@ -160,7 +160,7 @@ namespace StarForce
             }
             else
             {
-                uiComponent.OpenUIForm(UIFormId.DialogForm, dialogParams);
+                //uiComponent.OpenUIForm(UIFormId.DialogForm, dialogParams);
             }
         }
 

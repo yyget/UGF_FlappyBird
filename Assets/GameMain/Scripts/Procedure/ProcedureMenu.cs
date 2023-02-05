@@ -59,7 +59,7 @@ namespace StarForce
             if (m_StartGame)
             {
                 procedureOwner.SetData<VarInt32>("NextSceneId", GameEntry.Config.GetInt("Scene.Main"));
-                procedureOwner.SetData<VarByte>("GameMode", (byte)GameMode.Survival);
+                //procedureOwner.SetData<VarByte>("GameMode", (byte)GameMode.Survival);
                 ChangeState<ProcedureChangeScene>(procedureOwner);
             }
         }
