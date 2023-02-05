@@ -12,8 +12,8 @@ namespace StarForce
 {
     public class MenuForm : UGuiForm
     {
-        [SerializeField]
-        private GameObject m_QuitButton = null;
+        //[SerializeField]
+        //private GameObject m_QuitButton = null;
 
         private ProcedureMenu m_ProcedureMenu = null;
 
@@ -32,16 +32,16 @@ namespace StarForce
         //    GameEntry.UI.OpenUIForm(UIFormId.AboutForm);
         //}
 
-        public void OnQuitButtonClick()
-        {
-            GameEntry.UI.OpenDialog(new DialogParams()
-            {
-                Mode = 2,
-                Title = GameEntry.Localization.GetString("AskQuitGame.Title"),
-                Message = GameEntry.Localization.GetString("AskQuitGame.Message"),
-                OnClickConfirm = delegate (object userData) { UnityGameFramework.Runtime.GameEntry.Shutdown(ShutdownType.Quit); },
-            });
-        }
+        //public void OnQuitButtonClick()
+        //{
+        //    GameEntry.UI.OpenDialog(new DialogParams()
+        //    {
+        //        Mode = 2,
+        //        Title = GameEntry.Localization.GetString("AskQuitGame.Title"),
+        //        Message = GameEntry.Localization.GetString("AskQuitGame.Message"),
+        //        OnClickConfirm = delegate (object userData) { UnityGameFramework.Runtime.GameEntry.Shutdown(ShutdownType.Quit); },
+        //    });
+        //}
 
 #if UNITY_2017_3_OR_NEWER
         protected override void OnOpen(object userData)
@@ -58,7 +58,7 @@ namespace StarForce
                 return;
             }
 
-            m_QuitButton.SetActive(Application.platform != RuntimePlatform.IPhonePlayer);
+            //m_QuitButton.SetActive(Application.platform != RuntimePlatform.IPhonePlayer);
         }
 
 #if UNITY_2017_3_OR_NEWER
