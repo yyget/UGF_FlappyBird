@@ -134,6 +134,7 @@ namespace StarForce
 
             m_CheckVersionComplete = true;
             m_NeedUpdateVersion = GameEntry.Resource.CheckVersionList(m_VersionInfo.InternalResourceVersion) == CheckVersionListResult.NeedUpdate;
+            Log.Info("NeedUpdate '{0}'",m_NeedUpdateVersion);
         }
 
         private void OnWebRequestFailure(object sender, GameEventArgs e)

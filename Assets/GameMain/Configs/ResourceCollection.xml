@@ -15,6 +15,7 @@
       <Resource Name="Entities/Bird" LoadType="0" Packed="False" />
       <Resource Name="Entities/Bullet" LoadType="0" Packed="False" />
       <Resource Name="Entities/Pipe" LoadType="0" Packed="False" />
+      <Resource Name="Fonts/MainFont" LoadType="0" Packed="False" />
       <Resource Name="Localization/ChineseSimplified/Dictionaries/Default" LoadType="0" Packed="False" />
       <Resource Name="Localization/ChineseTraditional/Dictionaries/Default" LoadType="0" Packed="False" />
       <Resource Name="Localization/English/Dictionaries/Default" LoadType="0" Packed="False" />
@@ -33,6 +34,7 @@
       <Resource Name="UI/UIForms/MenuForm" LoadType="0" Packed="False" />
       <Resource Name="UI/UIForms/ScoreForm" LoadType="0" Packed="False" />
       <Resource Name="UI/UIForms/SettingForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/UpdateResourceForm" LoadType="0" Packed="False" />
       <Resource Name="UI/UISounds/click" LoadType="0" Packed="False" />
       <Resource Name="UI/UISprites/bg" LoadType="0" Packed="False" />
       <Resource Name="UI/UISprites/gameover" LoadType="0" Packed="False" />
@@ -60,6 +62,7 @@
       <Asset Guid="5dcff619ffdee754dbd9c82a2b8e32b8" ResourceName="Music/Menu" />
       <Asset Guid="70ac96d8033ff3f4883835c771870d82" ResourceName="Entities/Bullet" />
       <Asset Guid="771cfd1aedb7cd54fa391c1dac2e469f" ResourceName="Textures/back" />
+      <Asset Guid="77cbb7c5404c10242ab59953e0746314" ResourceName="Fonts/MainFont" />
       <Asset Guid="7f352870b0008f94f9e56f85e127d6a5" ResourceName="Music/Main" />
       <Asset Guid="7fd11dc5d29076d469d414dec2818f11" ResourceName="Configs/DefaultConfig" />
       <Asset Guid="8e114ded6a865324588170636872943c" ResourceName="DataTables/UISound" />
@@ -69,6 +72,7 @@
       <Asset Guid="9be2e1e45f4edd74c8764538ad306b78" ResourceName="Localization/ChineseSimplified/Dictionaries/Default" />
       <Asset Guid="9c3faac13c8ced84a9f3018303b7bb98" ResourceName="DataTables/Sound" />
       <Asset Guid="a33e23ae848110243820cda82120b105" ResourceName="DataTables/UIForm" />
+      <Asset Guid="a6c731de80e9d824d8f657301a357269" ResourceName="UI/UIForms/UpdateResourceForm" />
       <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" ResourceName="DataTables/Scene" />
       <Asset Guid="b031b4f2980561542a7f7ba41391edc3" ResourceName="Scenes/Menu" />
       <Asset Guid="bbfd75fe6fe00e1448fe988173ede7f9" ResourceName="UI/UIForms/SettingForm" />
