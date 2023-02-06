@@ -5,13 +5,107 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/StarForce Launcher.unity
-    guid: ab49c109c832a674e88d975a05399966
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/GameMain/Scenes/Main.unity
     guid: 4473d81b14ddb0143addf0e6050d8491
   - enabled: 1
     path: Assets/GameMain/Scenes/Menu.unity
     guid: b031b4f2980561542a7f7ba41391edc3
+  - enabled: 1
+    path: Assets/Launcher.unity
+    guid: ab49c109c832a674e88d975a05399966
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh
+      Pro.unity
+    guid: 2ac8cf212df6445e8aebbe3cb832e993
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity
+    guid: 251716609f634449bfe8ce75c0ed78fe
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
+    guid: 21a509e1d3cd49978623fa564adb6f02
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
+    guid: 8f7137eacd7042d5b17ef0efe5e744f5
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+    guid: 70615243e2be4a81afaab9bf5d273d65
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+    guid: 39a1fa96ad2a449b908fca29d4297a74
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript
+      Example.unity
+    guid: 03ec435d4b7140e9b2d87f79136d8374
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+    guid: 5fe2257128d9401fad0790f581dc8a6f
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+    guid: 349f38d3606449708c7340d26740e1e2
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List
+      Example.unity
+    guid: c3f814e1d12c45568daf3dd9a86a0e61
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+    guid: 84ed36ad77dd4956b2ffe3769f759879
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+    guid: 9747140c28254be2adc582210dfb89b8
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
+    guid: 08572ab7713642c8a60789750f0bce5c
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
+    guid: 875684baf40f4d008ce806d03e2a81b2
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+    guid: 22a2fba786ad4c40ac0ba09f0b933100
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity
+    guid: e76e6c0f81964cbda3fe0b7d26ed8060
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow
+      mode example.unity
+    guid: 9442cda25baa4a0bb544c4d095b00caa
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+    guid: 3e2e4d7b0bed4cf9ab827e9f32448f69
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking
+      & Layout.unity
+    guid: 03f9d74cec8e4b94a29d2dfd177c821b
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft
+      Mask.unity
+    guid: 9abcd5bd764646568a6ea70d00f9264c
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+    guid: 337f92480dd24675aae9e79210fb1ad9
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+    guid: 50f52f9274434ecfb34dd87f0836f323
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity
+    guid: 6250f98e58fe4abbaada5d84b7ca846d
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+    guid: 54e994244b4b467e8583cf2da6dcc716
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
+    guid: 8c4969fd8ba94a68b07cf11f3e7a5137
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+    guid: f9b4c22e15cff344ba9fc6542a58dd07
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder
+      Example.unity
+    guid: 0851605490a599b46b6ac5cb681d93ea
+  - enabled: 0
+    path: Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity
+    guid: 16177da2e3254cee91944756d5f8ddd3
   m_configObjects: {}
