@@ -5,8 +5,8 @@
   "InternalResourceVersion": 9,
   "UpdatePrefixUri": "https://www.boy3d.com/zb_users/upload/flappy_bird/1_0_9/Windows",
   "VersionListLength": 3259,
-  "VersionListHashCode": 1260940337,
+  "VersionListHashCode": -1260940337,
   "VersionListCompressedLength": 1531,
-  "VersionListCompressedHashCode": 82396479,
+  "VersionListCompressedHashCode": -82396479,
   "END_OF_JSON": ""
 }
