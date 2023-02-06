@@ -157,15 +157,15 @@ namespace StarForce
             if (bullet != null)
             {
                 ImpactData entityImpactData = entity.GetImpactData();
-                ImpactData bulletImpactData = bullet.GetImpactData();
-                if (GetRelation(entityImpactData.Camp, bulletImpactData.Camp) == RelationType.Friendly)
-                {
-                    return;
-                }
+                //ImpactData bulletImpactData = bullet.GetImpactData();
+                //if (GetRelation(entityImpactData.Camp, bulletImpactData.Camp) == RelationType.Friendly)
+                //{
+                //    return;
+                //}
 
-                int entityDamageHP = CalcDamageHP(bulletImpactData.Attack, entityImpactData.Defense);
+                //int entityDamageHP = CalcDamageHP(bulletImpactData.Attack, entityImpactData.Defense);
 
-                entity.ApplyDamage(bullet, entityDamageHP);
+                //entity.ApplyDamage(bullet, entityDamageHP);
                 GameEntry.Entity.HideEntity(bullet);
                 return;
             }

@@ -5,6 +5,7 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 
+using GameFramework;
 using GameFramework.Event;
 using UnityEngine;
 using UnityGameFramework.Runtime;
@@ -87,6 +88,10 @@ namespace StarForce
             GameEntry.Sound.PlaySound(1);
             collision.gameObject.SetActive(false);
             GameEntry.Entity.HideEntity(this);
+
+            //派发加分事件
+            AddScoreEventArgs e = ReferencePool.Acquire<AddScoreEventArgs>();
+            GameEntry.Event.Fire(this, e.Fill(10));
         }
          
     }

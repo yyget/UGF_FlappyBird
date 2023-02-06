@@ -1,3 +1,4 @@
+using GameFramework.Event;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,9 +44,10 @@ public class Pipe : Entity
         m_UpPipe.SetLocalPositionY(m_PipeData.OffsetUp);
         m_DownPipe.SetPositionY(m_PipeData.OffsetDown);
 
+            //订阅事件
+            GameEntry.Event.Subscribe(RestartEventArgs.EventId, OnRestart);
 
-
-    }
+        }
 
     protected override void OnUpdate(float elapseSeconds, float realElapseSeconds)
     {
@@ -67,10 +69,16 @@ public class Pipe : Entity
         base.OnHide(isShutdown,userData);
         m_UpPipe.gameObject.SetActive(true);
         m_DownPipe.gameObject.SetActive(true);
+            //取消订阅事件
+            GameEntry.Event.Unsubscribe(RestartEventArgs.EventId, OnRestart);
+
+
+        }
+        private void OnRestart(object sender, GameEventArgs e)
+        {
+            GameEntry.Entity.HideEntity(this);
+        }
 
 
     }
-
-
-}
 }
