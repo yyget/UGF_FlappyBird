@@ -99,7 +99,7 @@ namespace StarForce
             LoadDictionary("Default");
 
             // Preload fonts
-            LoadFont("MainFont");
+            //LoadFont("MainFont");
         }
 
         private void LoadConfig(string configName)
