@@ -46,6 +46,29 @@ namespace StarForce
         {
             entityComponent.ShowEntity(typeof(Bg), "Bg", Constant.AssetPriority.BgAsset, data);
         }
+        /// <summary>
+        /// 显示管道实体
+        /// </summary>
+        public static void ShowPipe(this EntityComponent entityComponent, PipeData data)
+        {
+            entityComponent.ShowEntity(typeof(Pipe), "Pipe", Constant.AssetPriority.BgAsset, data);
+        }
+        /// <summary>
+        /// 显示子弹实体
+        /// </summary>
+        public static void ShowBullet(this EntityComponent entityComponent, BulletData data)
+        {
+            entityComponent.ShowEntity(typeof(Bullet), "Bullet", Constant.AssetPriority.BulletAsset, data);
+        }
+        /// <summary>
+        /// 显示小鸟实体
+        /// </summary>
+        public static void ShowBird(this EntityComponent entityComponent, BirdData data)
+        {
+            entityComponent.ShowEntity(typeof(Bird), "Bird", Constant.AssetPriority.BirdAsset, data);
+        }
+
+
         public static void ShowMyAircraft(this EntityComponent entityComponent, MyAircraftData data)
         {
             entityComponent.ShowEntity(typeof(MyAircraft), "Aircraft", Constant.AssetPriority.MyAircraftAsset, data);
@@ -71,10 +94,10 @@ namespace StarForce
             entityComponent.ShowEntity(typeof(Armor), "Armor", Constant.AssetPriority.ArmorAsset, data);
         }
 
-        public static void ShowBullet(this EntityComponent entityCompoennt, BulletData data)
-        {
-            entityCompoennt.ShowEntity(typeof(Bullet), "Bullet", Constant.AssetPriority.BulletAsset, data);
-        }
+        //public static void ShowBullet(this EntityComponent entityCompoennt, BulletData data)
+        //{
+        //    entityCompoennt.ShowEntity(typeof(Bullet), "Bullet", Constant.AssetPriority.BulletAsset, data);
+        //}
 
         public static void ShowAsteroid(this EntityComponent entityCompoennt, AsteroidData data)
         {
