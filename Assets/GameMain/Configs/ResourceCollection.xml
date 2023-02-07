@@ -2,8 +2,8 @@
 <UnityGameFramework>
   <ResourceCollection>
     <Resources>
-      <Resource Name="Animation/bird_0" LoadType="0" Packed="True" />
-      <Resource Name="Animation/fly" LoadType="0" Packed="True" />
+      <Resource Name="Animation/bird_0" LoadType="0" Packed="False" />
+      <Resource Name="Animation/fly" LoadType="0" Packed="False" />
       <Resource Name="Configs/DefaultConfig" LoadType="0" Packed="False" />
       <Resource Name="DataTables/Entity" LoadType="0" Packed="False" />
       <Resource Name="DataTables/Music" LoadType="0" Packed="False" />
@@ -31,7 +31,7 @@
       <Resource Name="Textures/bird" LoadType="0" Packed="False" />
       <Resource Name="Textures/pipe" LoadType="0" Packed="False" />
       <Resource Name="UI/UIForms/GameOverForm" LoadType="0" Packed="False" />
-      <Resource Name="UI/UIForms/MenuForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/MenuForm" LoadType="0" Packed="True" />
       <Resource Name="UI/UIForms/ScoreForm" LoadType="0" Packed="False" />
       <Resource Name="UI/UIForms/SettingForm" LoadType="0" Packed="False" />
       <Resource Name="UI/UIForms/UpdateResourceForm" LoadType="0" Packed="False" />
